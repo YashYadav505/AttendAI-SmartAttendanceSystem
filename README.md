@@ -19,7 +19,7 @@ A **Smart Attendance System** that uses AI-based **face recognition** to automat
 
 ## 🏗️ Project Structure
 
-
+```bash
 face attendance-system/
 │
 ├── static/ # Node.js + Express backend
@@ -40,7 +40,7 @@ face attendance-system/
 │
 ├── README.md
 └── index.html
-
+```
 
 ---
 
@@ -85,7 +85,7 @@ face attendance-system/
 ```bash
 git clone https://github.com/your-username/smart-attendance-system.git
 cd smart-attendance-system
-
+```
 ---
 
 ### 1. Setting frontend
@@ -93,16 +93,16 @@ cd smart-attendance-system
 cd frontend
 npm install
 npm start
-
+```
 ###2. Setting backend
 ```bash
 cd backend
 npm install
 node server.js
-
+```
 3. Setting ai model
-
+```bash
 cd ai-model
 pip install -r requirements.txt
 python model.py
-
+```
