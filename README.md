@@ -17,7 +17,8 @@ A **Smart Attendance System** that uses AI-based **face recognition** to automat
 
 ---
 
-![Smart Attendance System]('https://github.com/YashYadav505/AttendAI-SmartAttendanceSystem/blob/main/demo.png?raw=true')
+![Smart Attendance System](<img width="1141" height="620" alt="image" src="https://github.com/user-attachments/assets/3e848a70-da32-4cb5-a4ad-6af9d5d56796" />
+')
 ## 🏗️ Project Structure
 
 ```bash
