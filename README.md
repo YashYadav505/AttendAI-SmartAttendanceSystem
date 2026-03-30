@@ -1,16 +1,108 @@
-# AttendAI-SmartAttendanceSystem
-attendAI is an intelligent, AI-powered attendance system designed to make tracking student or employee presence effortless, accurate, and futuristic. Created by Yash Yadav, this system leverages facial recognition to automatically identify individuals, mark attendance in real-time, and display detailed user information on the interface.
+# 📸 Smart Attendance System
+
+A **Smart Attendance System** that uses AI-based **face recognition** to automatically mark student attendance using a camera. The system detects faces, matches them with a stored database, and records attendance in real-time—removing the need for manual attendance.
+
+---
+
+## 🚀 Features
+
+- 🎯 Real-time face recognition
+- 📷 Camera-based student detection
+- 🧠 AI-powered face matching (DeepFace / FaceNet / OpenCV)
+- 🗂️ Student database integration (MongoDB / JSON)
+- 📊 Automatic attendance marking
+- 🧾 Student details display after recognition
+- 🔒 Secure data handling
+- 🌐 Web-based interface (React + Node.js / Python backend)
+
+---
+
+## 🏗️ Project Structure
 
 
-🚀 Features:
+face attendance-system/
+│
+├── static/ # Node.js + Express backend
+│ ├── server.js
+|
+├── studentsPhoto/              # Stores students profile pic
+│ ├── student1.png
+│ ├── student2.png
+│ ├── student3.png
+│ ├── student4.png
+│ └── student5.png
+│
+├── templates/ # Face recognition AI logic
+│ ├── app.py
+│ ├── attendance_qr.py
+│ ├── generate_QR.py
+│ 
+│
+├── README.md
+└── index.html
 
-Real-time face recognition for instant attendance marking
-Displays detailed information of recognized individuals
-Seamless integration with a MongoDB database for storing photos and records
-Fully automated workflow—no manual logging required
-Intuitive and interactive user interface
 
-💡 Why attendAI?
-Forget spreadsheets, manual roll calls, or tedious check-ins. attendAI brings efficiency, accuracy, and a touch of AI magic to attendance management—perfect for classrooms, offices, or any organization.
+---
 
-🔗 Built with Python, OpenCV, TensorFlow, and MongoDB, this project is an excellent showcase of practical AI applications.
+## 🛠️ Tech Stack
+
+### Frontend
+- React.js
+- HTML5, CSS3
+- JavaScript
+- Axios
+
+### Backend
+- Node.js
+- Express.js
+- MongoDB (Mongoose)
+
+### AI / ML
+- Python
+- OpenCV
+- DeepFace / FaceNet
+- NumPy, Pandas
+
+---
+
+## ⚙️ How It Works
+
+1. Admin stores student details (name, ID, photo).
+2. AI model encodes and saves face features.
+3. Camera captures live video.
+4. System detects faces in real-time.
+5. AI compares faces with database.
+6. If matched:
+   - Attendance is marked
+   - Student details are shown on UI
+7. Data is saved in logs/database.
+
+---
+
+## 📦 Installation Guide
+
+### 1. Clone Repository
+```bash
+git clone https://github.com/your-username/smart-attendance-system.git
+cd smart-attendance-system
+
+---
+
+### 1. Setting frontend
+```bash
+cd frontend
+npm install
+npm start
+
+###2. Setting backend
+```bash
+cd backend
+npm install
+node server.js
+
+3. Setting ai model
+
+cd ai-model
+pip install -r requirements.txt
+python model.py
+
