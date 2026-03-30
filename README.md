@@ -17,6 +17,7 @@ A **Smart Attendance System** that uses AI-based **face recognition** to automat
 
 ---
 
+![Smart Attendance System]('C:\Users\nishi\OneDrive\Pictures\Screenshots\Screenshot 2026-03-30 224337.png')
 ## 🏗️ Project Structure
 
 ```bash
